@@ -8,7 +8,7 @@ export function HomePage() {
     <div>
       <Banner title={HOME_TITLE} />
       {HOME_DATA.map(data => (
-        <InfoCard title={data.title} content={data.content} />
+        <InfoCard key={`homepage-${data.title}`} title={data.title} content={data.content} />
       ))}
     </div>
   )
