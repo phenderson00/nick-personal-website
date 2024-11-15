@@ -1,5 +1,5 @@
 import { Banner } from "../components/banner/Banner";
-import { InfoCard } from "../components/info-card/InfoCard";
+import { InfoCard } from "../components/cards/InfoCard";
 import {HOME_TITLE, HOME_DATA} from "../data/home-data";
 
 export function HomePage() {
@@ -12,5 +12,4 @@ export function HomePage() {
       ))}
     </div>
   )
-
 }
