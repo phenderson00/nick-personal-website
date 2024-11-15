@@ -4,7 +4,6 @@ import { HOME_TITLE, HOME_DATA } from "../data/home-data";
 
 export function HomePage() {
 
-
   return (
     <div>
       <Banner title={HOME_TITLE} />
