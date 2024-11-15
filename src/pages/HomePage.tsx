@@ -1,6 +1,6 @@
 import { Banner } from "../components/banner/Banner";
 import { InfoCard } from "../components/info-card/InfoCard";
-import { HOME_TITLE, HOME_DATA } from "../data/home-data";
+import {HOME_TITLE, HOME_DATA} from "../data/home-data";
 
 export function HomePage() {
 
